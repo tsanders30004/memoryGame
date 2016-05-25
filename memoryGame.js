@@ -96,7 +96,7 @@ $(document).ready(function(){
 
 
 
-     $('#grid').append(makeGrid(monsters, 2, 4));    /* create HTML grid on M rows and N columns.  the product of M and N must be an even number <= 32.  */
+     $('#grid').append(makeGrid(monsters, 4, 8));    /* create HTML grid on M rows and N columns.  the product of M and N must be an even number <= 32.  */
 
      $('.tile').click(function(){
           if (state === 'first') {

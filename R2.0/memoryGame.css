@@ -15,25 +15,16 @@ body {
      margin-bottom: -20px;
      padding: 0;
 }
-p {
-     text-align: center;
-     font-size: 2em;
+.titleLine {
+     opacity: 0.5;
+     width = 100%;
 }
 
-#grid, #mainTitle {
+#grid {
      width: 80%;
      margin-left:  10%;
      margin-right: 10%;
 }
-#buttonContainer {
-     position: absolute;
-     width: 33%;
-     top: 33%;
-     left: 33%;
-     border: 1px dotted solid;
-     margin: 0;
-}
-
 .tile {
      float: left;
      width: 22%;
@@ -53,12 +44,4 @@ p {
 
 .matched {
      opacity: 1;
-}
-.buttonDiv {
-     float: left;
-     width: 33.3333%;
-}
-
-.monsterButton {
-
 }
